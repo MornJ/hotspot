@@ -1201,6 +1201,7 @@ void ostream_init_log() {
     }
     gclog_or_tty = gclog;
   }
+  tty->print_cr("welcom jxf");
 
 #if INCLUDE_CDS
   // For -XX:DumpLoadedClassList=<file> option
